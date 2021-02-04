@@ -1,4 +1,4 @@
-# import pgzrun
+import pgzrun
 from random import randint
 import time
 apple = Actor("apple")
@@ -31,4 +31,4 @@ def on_mouse_down(pos):
  
 place_apple()
 
-# pgzrun.go()
+pgzrun.go()
