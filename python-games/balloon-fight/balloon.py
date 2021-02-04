@@ -39,10 +39,6 @@ def update_high_scores():
         for high_score in scores:
             file.write(high_score)
 
-    
-
-
-
 def display_high_scores():
     screen.draw.text("HIGH SCORES", (350, 150), color="black")
     y = 175
@@ -59,7 +55,7 @@ def draw():
         bird.draw()
         house.draw()
         tree.draw()
-        screen.draw.text("Score: "+str(score), (700, 5), color="black")
+        screen.draw.text("Score: " + str(score), (700, 5), color="black")
     else:
         display_high_scores()
 
