@@ -1,6 +1,5 @@
 import pgzrun
 from random import randint
-
 WIDTH = 1600
 HEIGHT = 800
 
